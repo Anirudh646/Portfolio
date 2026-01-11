@@ -6,15 +6,6 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Next-Gen University Portal",
-    description:
-      "A modern university portal providing enhanced student-faculty interaction through role-based dashboards, announcements, and doubt management system.",
-    techStack: ["React.js", "Python", "Django/Flask"],
-    features: ["Role-based Dashboards", "Announcements", "Doubt Management", "Modern UI/UX"],
-    liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
     title: "Admission Counselor Website",
     description:
       "A responsive platform that helps students with admission queries and eligibility guidance for various courses and universities.",
@@ -24,13 +15,74 @@ const projects = [
     githubUrl: "https://github.com/Anirudh646/ai-addmission2",
   },
   {
-    title: "E-Commerce Website",
+    title: "Product Manager Dashboard",
+    description: 
+      "A modern product management dashboard that allows users to add, edit, delete, and manage products with category tagging, search, and responsive UI.",
+      techStack: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui"
+    ],
+    features: [
+      "Add, edit, and delete products",
+      "Search and filter products",
+      "Category-based product management",
+      "Responsive card and list views",
+      "Clean and modern UI"
+    ],
+    liveUrl: "https://product-showcase-studio-peach.vercel.app",
+    githubUrl: "https://github.com/Anirudh646/product-showcase-studio",
+  },
+  {
+    title: "LearnBot – AI Learning Platform",
     description:
-      "A fully functional e-commerce website with product listings, shopping cart, and user-friendly interface.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    features: ["Product Catalog", "Shopping Cart", "Responsive UI", "User Friendly"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/Anirudh646/curated-e-commerce-solutions",
+      "An interactive learning platform designed for kids, featuring math, language, and story-based modules with progress tracking, levels, and gamified rewards.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Vercel"
+    ],
+    features: [
+      "Interactive dashboard with progress tracking",
+      "Math tutor module with gamified learning",
+      "Language tutor for words and spelling",
+      "Story mode for fun and engaging reading",
+      "Points, levels, and badges system",
+      "Responsive and kid-friendly UI"
+    ],
+    liveUrl: "https://learn-bot-six.vercel.app",
+    githubUrl: "https://github.com/Anirudh646/LearnBot",
+  },
+  {
+    title: "Curated E-Commerce Platform",
+    description:
+      "LUXE Store is a modern e-commerce web application showcasing a curated collection of premium products with a clean UI, smooth shopping experience, and scalable frontend architecture.",
+    techStack: ["React.js", "TypeScript","Tailwind CSS","Supabase","Vite","Vercel"],
+    features: ["Product Listing & Detail Pages","Add to Cart & Cart Management","User Authentication","Responsive Modern UI","Promotional Banners & Offers","Optimized Frontend Performance"],
+    liveUrl: "https://github.com/Anirudh646/curated-e-commerce-solutions",
+    githubUrl: "https://curated-e-commerce-solutions.vercel.app/",
+  },
+  {
+    title: "TaskFlow – Task Management Dashboard",
+    description:
+      "TaskFlow is a modern task management web application that enables users to securely manage tasks with real-time updates, priority tracking, and Kanban-style workflows.",
+    techStack: [
+      "React.js","TypeScript","Tailwind CSS","Supabase","Vite","Vercel"
+    ],
+    features: [
+      "Secure Email & Password Authentication",
+      "Create, Edit, Delete & Update Tasks",
+      "Kanban and List View Toggle",
+      "Task Status Tracking (Pending, In Progress, Completed)",
+      "Priority & Status Filters",
+      "Clean Dark-Themed Responsive UI"
+    ],
+    liveUrl: "https://primetrade-task-nu.vercel.app",
+    githubUrl: "https://github.com/Anirudh646/primetrade-task",
   },
   {
     title: "Electrical Power Bank",
@@ -38,7 +90,8 @@ const projects = [
       "Built an electrical power bank using lithium-ion chargeable batteries, demonstrating hardware and electrical engineering skills.",
     techStack: ["Hardware", "Electronics", "Lithium-ion Batteries"],
     features: ["Portable Charging", "Rechargeable", "Custom Build", "Practical Application"],
-    
+    liveUrl: "",
+    githubUrl: "",
   },
 ];
 
