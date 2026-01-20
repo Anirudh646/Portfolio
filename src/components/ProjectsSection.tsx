@@ -63,8 +63,8 @@ const projects = [
       "LUXE Store is a modern e-commerce web application showcasing a curated collection of premium products with a clean UI, smooth shopping experience, and scalable frontend architecture.",
     techStack: ["React.js", "TypeScript","Tailwind CSS","Supabase","Vite","Vercel"],
     features: ["Product Listing & Detail Pages","Add to Cart & Cart Management","User Authentication","Responsive Modern UI","Promotional Banners & Offers","Optimized Frontend Performance"],
-    liveUrl: "https://github.com/Anirudh646/curated-e-commerce-solutions",
-    githubUrl: "https://curated-e-commerce-solutions.vercel.app/",
+    liveUrl: "https://curated-e-commerce-solutions.vercel.app/",
+    githubUrl: "https://github.com/Anirudh646/curated-e-commerce-solutionshttps",
   },
   {
     title: "TaskFlow – Task Management Dashboard",
